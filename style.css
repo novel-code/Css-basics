@@ -6,6 +6,16 @@ p,
 li {
   font-family: sans-serif;
 }
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 h1 {
   font-size: 26px;
   text-transform: uppercase;
@@ -18,6 +28,7 @@ h2 {
 
 h3 {
   font-size: 30px;
+  color: #ff7be7;
 }
 
 h4 {
@@ -44,5 +55,27 @@ article header p {
 } */
 
 #authour {
+  font-style: italic;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+a:link,
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+
+a:active {
+  background-color: black;
   font-style: italic;
 }
